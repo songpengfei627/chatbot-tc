@@ -50,7 +50,7 @@ function botRespond() {
   } else if (stage === 1) {
     createMsg(
       '亲，为您推荐以下产品：<br><b>「X-Lux 多功能智能台灯」</b><br>- 支持多段亮度与色温调节<br>- 搭载无线充电、时间显示与蓝牙音箱功能<br>- 外观简洁百搭，适合卧室、书桌、化妆台等多种空间<br>- 满足办公、阅读、放松等多种场景下的使用需求'+
-        '<br><img src="./result2.jpg" alt="黑色百褶落地灯" ' +
+        '<br><img src="./result2.jpg" ' +
         'style="max-width:200px;border-radius:8px;margin-top:8px;">',
       'bot'
     );
